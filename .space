@@ -1,0 +1,23 @@
+{
+	"type"              : "lib",
+	"template"          : "clean",
+	"pm"                : "bun",
+	"repo"              : {
+		"org"           : "minejs",
+		"name"          : "hooks",
+		"version"       : "0.0.1",
+		"desc"          : "React-inspired hooks for reactive state management.",
+		"kw"            : ["minejs", "hooks"],
+		"license"       : "MIT",
+		"issues"        : "https://github.com/minejs-org/hooks/issues",
+		"homepage"      : "https://github.com/minejs-org/hooks#readme",
+		"git_url"       : "git+https://github.com/minejs-org/hooks.git"
+	},
+	"author"            : {
+		"id"            : "maysara-elshewehy",
+		"name"          : "Maysara",
+		"email"         : "maysara.elshewehy@gmail.com",
+		"url"           : "https://github.com/maysara-elshewehy"
+	},
+	"createdAt"         : "2026-01-03T03:29:50.434Z"
+}
