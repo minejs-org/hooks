@@ -1,30 +1,18 @@
 import { Signal } from '@minejs/signals';
 
-/* eslint-disable @typescript-eslint/no-explicit-any */
-// src/types.d.ts
-//
-// Made with ❤️ by Maysara.
-
-
-
-// ╔════════════════════════════════════════ TYPE ════════════════════════════════════════╗
-
-    type SetStateAction<T>   = T | ((prev: T) => T);
-    type EffectCallback      = () => void | (() => void);
-    type DependencyList      = readonly any[];
-
-    interface HookContext {
-        hooks                       : any[]
-        currentHookIndex            : number
-        component                   : any
-    }
-
-    type Reducer<S, A> = (state: S, action: A) => S;
-
-    interface Context<T> {
-        _symbol: symbol
-        defaultValue: T
-    }
+type SetStateAction<T> = T | ((prev: T) => T);
+type EffectCallback = () => void | (() => void);
+type DependencyList = readonly any[];
+interface HookContext {
+    hooks: any[];
+    currentHookIndex: number;
+    component: any;
+}
+type Reducer<S, A> = (state: S, action: A) => S;
+interface Context<T> {
+    _symbol: symbol;
+    defaultValue: T;
+}
 
 /**
  * Set current hook context (internal use)

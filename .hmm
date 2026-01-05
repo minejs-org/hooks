@@ -5,7 +5,7 @@
 	"repo"              : {
 		"org"           : "minejs",
 		"name"          : "hooks",
-		"version"       : "0.0.3",
+		"version"       : "0.0.5",
 		"desc"          : "React-inspired hooks for reactive state management.",
 		"kw"            : ["minejs", "hooks"],
 		"license"       : "MIT",

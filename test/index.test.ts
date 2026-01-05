@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-// test/main.test.ts
+// test/index.test.ts
 //
 // Made with ❤️ by Maysara.
 
@@ -31,7 +31,7 @@
         useEventListener,
         setHookContext,
         type HookContext
-    } from '../src/main';
+    } from '../src';
 
 // ╚══════════════════════════════════════════════════════════════════════════════════════╝
 

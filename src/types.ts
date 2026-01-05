@@ -1,26 +1,28 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 // src/types.ts
 //
 // Made with ❤️ by Maysara.
 
-import type { Signal } from '@minejs/signals';
+
 
 // ╔════════════════════════════════════════ TYPE ════════════════════════════════════════╗
 
-export type SetStateAction<T>   = T | ((prev: T) => T);
-export type EffectCallback      = () => void | (() => void);
-export type DependencyList      = readonly unknown[];
 
-export interface HookContext {
-    hooks                       : unknown[]
-    currentHookIndex            : number
-    component                   : unknown
-}
+    export type SetStateAction<T>   = T | ((prev: T) => T);
+    export type EffectCallback      = () => void | (() => void);
+    export type DependencyList      = readonly any[];
 
-export type Reducer<S, A> = (state: S, action: A) => S;
+    export interface HookContext {
+        hooks                       : any[]
+        currentHookIndex            : number
+        component                   : any
+    }
 
-export interface Context<T> {
-    _symbol: symbol
-    defaultValue: T
-}
+    export type Reducer<S, A> = (state: S, action: A) => S;
+
+    export interface Context<T> {
+        _symbol: symbol
+        defaultValue: T
+    }
 
 // ╚══════════════════════════════════════════════════════════════════════════════════════╝
